@@ -22,3 +22,6 @@ app.post("/notes", (req, res) =>  {
     res.json(dataNotes);
 
 });
+
+module.exports = app; 
+
